@@ -74,7 +74,7 @@
             this.ButtonAdd.Name = "ButtonAdd";
             this.ButtonAdd.Size = new System.Drawing.Size(80, 32);
             this.ButtonAdd.TabIndex = 4;
-            this.ButtonAdd.Text = "+";
+            this.ButtonAdd.Text = "＋";
             this.ButtonAdd.UseVisualStyleBackColor = true;
             this.ButtonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
             // 
@@ -84,7 +84,7 @@
             this.ButtonSub.Name = "ButtonSub";
             this.ButtonSub.Size = new System.Drawing.Size(80, 32);
             this.ButtonSub.TabIndex = 5;
-            this.ButtonSub.Text = "-";
+            this.ButtonSub.Text = "－";
             this.ButtonSub.UseVisualStyleBackColor = true;
             this.ButtonSub.Click += new System.EventHandler(this.ButtonSub_Click);
             // 
@@ -94,7 +94,7 @@
             this.ButtonMult.Name = "ButtonMult";
             this.ButtonMult.Size = new System.Drawing.Size(80, 32);
             this.ButtonMult.TabIndex = 6;
-            this.ButtonMult.Text = "*";
+            this.ButtonMult.Text = "×";
             this.ButtonMult.UseVisualStyleBackColor = true;
             this.ButtonMult.Click += new System.EventHandler(this.ButtonMult_Click);
             // 
@@ -104,7 +104,7 @@
             this.ButtonDiv.Name = "ButtonDiv";
             this.ButtonDiv.Size = new System.Drawing.Size(80, 32);
             this.ButtonDiv.TabIndex = 7;
-            this.ButtonDiv.Text = "/";
+            this.ButtonDiv.Text = "÷";
             this.ButtonDiv.UseVisualStyleBackColor = true;
             this.ButtonDiv.Click += new System.EventHandler(this.ButtonDiv_Click);
             // 

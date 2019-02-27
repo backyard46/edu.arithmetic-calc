@@ -58,8 +58,8 @@ namespace ArithmeticCalc
         /// <summary>
         /// テキストボックスの数値2つを減算。
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">イベント呼び出し元オブジェクト</param>
+        /// <param name="e">e</param>
         private void ButtonSub_Click(object sender, EventArgs e)
         {
             TextAnswer.Text = SubStringValues(TextValue1.Text, TextValue2.Text).ToString();
@@ -68,8 +68,8 @@ namespace ArithmeticCalc
         /// <summary>
         /// テキストボックスの数値2つを乗算。
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">イベント呼び出し元オブジェクト</param>
+        /// <param name="e">e</param>
         private void ButtonMult_Click(object sender, EventArgs e)
         {
             TextAnswer.Text=MultStringValues(TextValue1.Text, TextValue2.Text).ToString();
@@ -78,8 +78,8 @@ namespace ArithmeticCalc
         /// <summary>
         /// テキストボックスの数値2つを除算。
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">イベント呼び出し元オブジェクト</param>
+        /// <param name="e">e</param>
         private void ButtonDiv_Click(object sender, EventArgs e)
         {
             TextAnswer.Text=DivStringValues(TextValue1.Text, TextValue2.Text).ToString();

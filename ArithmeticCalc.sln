@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticCalc", "ArithmeticCalc\ArithmeticCalc.csproj", "{EDBD7E66-B8E6-413C-8A0F-5FD0EBB949B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDBD7E66-B8E6-413C-8A0F-5FD0EBB949B4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EDBD7E66-B8E6-413C-8A0F-5FD0EBB949B4}.Release|Any CPU.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {522B40E2-278C-4C04-AFB1-168F2F794B32}
+	EndGlobalSection
+EndGlobal

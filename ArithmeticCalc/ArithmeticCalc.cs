@@ -23,8 +23,8 @@ namespace ArithmeticCalc
         /// <summary>
         /// テキストボックスの数値2つを加算。
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">イベント呼び出し元オブジェクト</param>
+        /// <param name="e">e</param>
         private void ButtonAdd_Click(object sender, EventArgs e)
         {
             // TryParseを使って変換可能かチェックしながら文字→整数変換を行う
